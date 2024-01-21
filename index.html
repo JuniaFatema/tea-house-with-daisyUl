@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea house with DaisyUl practice</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/36145bb1bc.js" crossorigin="anonymous"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+                <div>
+                    <img src="./images/banner.png" class="max-w-sm" />
+                    <div class="flex justify-center items-center gap-3 bg-white w-56 p-2 rounded-lg drop-shadow-lg -mt-24">
+                        <i class="text-orange-500 fa-solid fa-star"></i>
+                        <div>
+                            <h2 class="text-3xl font-bold">5.00</h2>
+                            <p>Trust Pilot Ratings</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div>
+                    <h1 class="text-3xl lg:text-7xl font-bold">It's good <br>
+                        tea time at The <br> Tea House</h1>
+                    <p class=" py-2 lg:py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
+                        excepturi
+                        exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Explore More</button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main class="container mx-auto my-20">
+        <section class="flex flex-col justify-between items-center md:flex-row">
+            <div class="flex-1">
+                <h1>Great Tea, Freshly Presented</h1>
+                <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-rows-3 lg:grid-flow-col  gap-4 flex-1">
+                <div class="lg:py-10 bg-purple-300">
+                </div>
+                <div class="flex justify-center lg:py-10 bg-purple-300 row-span-2">
+                    <img src="./images/fresh-1.png" alt="">
+                    2</div>
+                <div class="lg:py-10 flex justify-center bg-purple-300 row-span-2">
+                    <img src="./images/fresh-2.png" alt="">
+                    3</div>
+                <div class="lg:py-10 bg-purple-300">4</div>
+            </div>
+    
+
+        </section>
+        
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
